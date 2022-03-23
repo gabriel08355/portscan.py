@@ -30,8 +30,8 @@ def scan():
 
 		if(resp == 0):
 			   print(f"{port}              {socket.getservbyport(port)}              open\n"):
-	    else:
-	    	   print(f"{port}              {socket.getservbyport(port)}              closed\n")
+	    else;
+	    	           print(f"{port}              {socket.getservbyport(port)}              closed\n")
 
 	client.close()
 
