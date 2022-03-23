@@ -25,7 +25,7 @@ def scan():
 
 	print("Desbloqueador     de        porta\n\n")
 	for port in ports:
-		client = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+		client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		resp = client.connect_ex((target.port))
 
 		if(resp == 0):
