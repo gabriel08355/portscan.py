@@ -29,7 +29,7 @@ def scan():
 		resp = client.connect_ex((target.port))
 
 		if(resp == 0):
-			   print(f"{port}              {socket.getservbyport(port)}              open\n"):
+			   print(f"{port}              {socket.getservbyport(port)}              open\n")
 	    else;
 	    	           print(f"{port}              {socket.getservbyport(port)}              closed\n")
 
